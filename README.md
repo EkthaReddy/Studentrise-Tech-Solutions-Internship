@@ -4,7 +4,7 @@ This intership provides tasks realted to AIs. In those tasks we need to create t
 
 <details>
   
-<summary><h3>SPAM EMAIL CLASSIFIER</h3></summary>
+<summary><h3>Spam Email Classifier</h3></summary>
 
 Creating an AI model to classify emails as spam or not spam involves several steps, including data collection, preprocessing, feature extraction, and model training. Here's a step-by-step guide to building such a classifier:
 
@@ -112,3 +112,4 @@ print(f'F1 Score: {f1}')
 ```
 
 </details>
+---
