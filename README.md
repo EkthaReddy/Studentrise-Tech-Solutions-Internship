@@ -8,24 +8,32 @@ This intership provides tasks realted to AIs. In those tasks we need to create t
 
 Creating an AI model to classify emails as spam or not spam involves several steps, including data collection, preprocessing, feature extraction, and model training. Here's a step-by-step guide to building such a classifier:
 
-Step 1: Data Collection
+**Step 1:** Data Collection
 You can use the Enron email dataset, which is publicly available and commonly used for email classification tasks.
 
-Step 2: Data Preprocessing
+**Step 2:** Data Preprocessing
 Preprocessing involves cleaning the text data to make it suitable for feature extraction and model training. Common preprocessing steps include:
 
 Removing HTML tags: Emails often contain HTML content.
+
 Removing special characters and numbers: These are usually not helpful for text classification.
+
 Converting text to lowercase: This ensures uniformity.
+
 Removing stop words: Words like "and", "the", etc., which are not useful for classification.
+
 Stemming or lemmatization: Reducing words to their base forms.
-Step 3: Feature Extraction
+
+**Step 3:** Feature Extraction
 Feature extraction involves converting text data into numerical features that can be used by machine learning algorithms. Common techniques include:
 
 Bag of Words (BoW): Representing text as a set of word frequencies.
+
 Term Frequency-Inverse Document Frequency (TF-IDF): A more refined version of BoW that accounts for the importance of words.
+
 Word Embeddings: Using pre-trained models like Word2Vec or GloVe to convert words into dense vectors.
-Step 4: Model Training
+
+**Step 4:** Model Training
 Several machine learning algorithms can be used to train the classifier, including:
 
 Logistic Regression: A simple and effective baseline model.
@@ -33,16 +41,16 @@ Naive Bayes: Particularly suited for text classification tasks.
 Support Vector Machines (SVM): Effective for high-dimensional spaces.
 Random Forest: An ensemble method that is robust and powerful.
 Neural Networks: Including simple feedforward networks or more complex architectures like LSTM or Transformers for advanced performance.
-Step 5: Model Evaluation
+**Step 5:** Model Evaluation
 Evaluating the performance of your model using metrics such as accuracy, precision, recall, F1-score, and ROC-AUC.
 
-Step 6: Deployment
+**Step 6:** Deployment
 Deploying the model in a production environment where it can classify incoming emails in real-time.
 
 Here’s a simplified implementation using Python and common libraries like Scikit-learn, NLTK, and Pandas:
 
 python
-Copy code
+```
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -101,5 +109,6 @@ print(f'Accuracy: {accuracy}')
 print(f'Precision: {precision}')
 print(f'Recall: {recall}')
 print(f'F1 Score: {f1}')
+```
 
 </details>
