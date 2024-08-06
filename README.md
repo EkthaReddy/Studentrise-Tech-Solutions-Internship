@@ -219,7 +219,7 @@ To develop a handwritten digit recognizer using the MNIST dataset, you can follo
 
 ------
 <details>
-<summary><h3>Chatbot for customer support</h3></summary>
+<summary><h3>Chatbot for Customer Support</h3></summary>
 
   To build an AI-powered chatbot for customer support, follow these steps:
 
@@ -538,3 +538,5 @@ To build an AI-based face recognition system that can detect and recognize faces
 
 By following these steps, you can build an AI-based face recognition system that detects and recognizes faces in real-time. Adjust the model and parameters according to your specific requirements.
 </details>
+
+-------
