@@ -2,7 +2,7 @@
 
 This intership provides tasks realted to AIs. In those tasks we need to create the model for each assigned tasks.
 
-## Spam Email Classifier
+## Task 1: Spam Email Classifier
 
 Creating an AI model to classify emails as spam or not spam involves several steps, including data collection, preprocessing, feature extraction, and model training. Here's a step-by-step guide to building such a classifier:
 
